@@ -23,7 +23,6 @@ class StylishApp extends StatelessWidget {
           locale: const Locale('en'),
           theme: AppTheme.lightMode,
           initialRoute: AppRoutes.forgotPassword,
-          // onGenerateRoute: AppRouter.onGenerateRoute,
         );
       },
       
