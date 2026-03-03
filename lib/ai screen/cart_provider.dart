@@ -2,15 +2,12 @@ import 'package:flutter/material.dart';
 import 'product.dart';
 
 class CartProvider extends ChangeNotifier {
-  // استخدام Map لتخزين المنتج مع الكمية (Quantity) لسهولة الإدارة
   final Map<int, CartItem> _cartItems = {};
 
   List<CartItem> get items => _cartItems.values.toList();
 
-  // حساب العدد الإجمالي للقطع في السلة
   int get totalItemsCount => _cartItems.length;
 
-  // إضافة منتج للسلة (مع زيادة الكمية إذا كان موجوداً بالفعل)
   void add(Product product) {
     if (_cartItems.containsKey(product.id)) {
       _cartItems.update(
@@ -26,7 +23,6 @@ class CartProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  // تقليل الكمية أو حذف المنتج إذا وصلت لـ 1
   void remove(int productId) {
     if (!_cartItems.containsKey(productId)) return;
 
@@ -44,13 +40,11 @@ class CartProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  // حذف المنتج تماماً من السلة بغض النظر عن كميته
   void deleteProduct(int productId) {
     _cartItems.remove(productId);
     notifyListeners();
   }
 
-  // حساب المجموع الكلي (السعر × الكمية)
   double get totalAmount {
     double total = 0.0;
     _cartItems.forEach((key, cartItem) {
@@ -65,7 +59,6 @@ class CartProvider extends ChangeNotifier {
   }
 }
 
-// كلاس فرعي لتنظيم البيانات داخل السلة
 class CartItem {
   final Product product;
   final int quantity;
