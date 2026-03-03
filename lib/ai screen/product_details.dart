@@ -18,7 +18,6 @@ class ProductDetails extends StatelessWidget {
       backgroundColor: Colors.black,
       body: CustomScrollView(
         slivers: [
-          // AppBar مرن مع صورة المنتج
           SliverAppBar(
             expandedHeight: 400,
             pinned: true,
@@ -87,7 +86,7 @@ class ProductDetails extends StatelessWidget {
                       height: 1.6,
                     ),
                   ),
-                  const SizedBox(height: 100), // مساحة للزر السفلي
+                  const SizedBox(height: 100), 
                 ],
               ),
             ),
