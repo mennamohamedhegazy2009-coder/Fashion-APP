@@ -28,8 +28,6 @@ class _AIShopChatState extends State<AIShopChat> {
     super.initState();
     loadProducts();
   }
-
-  // تحميل المنتجات من الـ API
   Future<void> loadProducts() async {
     try {
       final res = await http.get(Uri.parse("https://api.escuelajs.co/api/v1/products"));
@@ -42,8 +40,7 @@ class _AIShopChatState extends State<AIShopChat> {
     }
   }
 
-  // وظيفة التمرير التلقائي لأسفل المحادثة
-  void scrollToBottom() {
+ void scrollToBottom() {
     Future.delayed(const Duration(milliseconds: 300), () {
       if (_scrollController.hasClients) {
         _scrollController.animateTo(
@@ -76,7 +73,6 @@ class _AIShopChatState extends State<AIShopChat> {
       setState(() {
         isTyping = false;
         try {
-          // تنظيف النص من أي علامات Markdown قد يضيفها الـ AI
           String cleanedResponse = fullAIResponse
               .replaceAll('```json', '')
               .replaceAll('```', '')
@@ -84,16 +80,12 @@ class _AIShopChatState extends State<AIShopChat> {
 
           final jsonData = jsonDecode(cleanedResponse);
           
-          // إضافة نص الرد
-          String aiText = jsonData["text"] ?? "إليك ما وجدته:";
+         String aiText = jsonData["text"] ?? "إليك ما وجدته:";
           chatWidgets.add(chatBubble(aiText, isUser: false));
-
-          // عرض قائمة المنتجات المقترحة
           if (jsonData["products"] != null && jsonData["products"] is List) {
             chatWidgets.add(buildProductList(List<int>.from(jsonData["products"])));
           }
         } catch (e) {
-          // في حال فشل الـ JSON، يتم عرض النص الخام كرسالة عادية
           chatWidgets.add(chatBubble(fullAIResponse, isUser: false));
         }
       });
@@ -101,7 +93,6 @@ class _AIShopChatState extends State<AIShopChat> {
     });
   }
 
-  // تصميم فقاعة المحادثة مع دعم اتجاه النص التلقائي
   Widget chatBubble(String text, {required bool isUser}) {
     bool isArabic = text.contains(RegExp(r'[ب-ي]'));
     return Align(
@@ -135,7 +126,6 @@ class _AIShopChatState extends State<AIShopChat> {
     );
   }
 
-  // ودجت عرض المنتجات بشكل أفقي (Horizontal Scroll)
   Widget buildProductList(List<int> ids) {
     final filtered = products.where((p) => ids.contains(p.id)).toList();
     if (filtered.isEmpty) return const SizedBox();
