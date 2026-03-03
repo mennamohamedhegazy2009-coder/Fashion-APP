@@ -1,0 +1,125 @@
+{
+  "@@locale": "ar",
+
+  "appName": "ستايلش",
+
+  "chooseProductsTitle": "اختر المنتجات",
+  "chooseProductsDesc": "تصفح واختر منتجاتك المفضلة بسهولة.",
+
+  "makePaymentTitle": "أكمل الدفع",
+  "makePaymentDesc": "تجربة دفع سريعة وآمنة.",
+
+  "getYourOrderTitle": "استلم طلبك",
+  "getYourOrderDesc": "توصيل سريع إلى باب منزلك.",
+
+  "next": "التالي",
+  "previous": "السابق",
+  "getStarted": "ابدأ الآن",
+  "skip": "تخطي",
+
+  "welcomeBack": "مرحبًا بعودتك!",
+  "login": "تسجيل الدخول",
+  "createAccount": "إنشاء حساب",
+  "forgotPassword": "نسيت كلمة المرور؟",
+  "forgotPasswordTitle": "نسيت كلمة المرور",
+  "submit": "إرسال",
+
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "username": "اسم المستخدم",
+
+  "dontHaveAccount": "ليس لديك حساب؟",
+  "alreadyHaveAccount": "لديك حساب بالفعل؟",
+
+  "signUp": "إنشاء حساب",
+  "signIn": "دخول",
+  "logout": "تسجيل الخروج",
+
+  "allFeatured": "كل المنتجات المميزة",
+  "specialOffers": "عروض خاصة",
+  "trendingProducts": "المنتجات الرائجة",
+  "newArrivals": "وصل حديثًا",
+  "seeAll": "عرض الكل",
+  "viewAll": "مشاهدة الكل",
+
+  "searchHint": "ابحث عن المنتجات",
+  "categories": "التصنيفات",
+
+  "addToCart": "أضف إلى السلة",
+  "buyNow": "اشترِ الآن",
+  "description": "الوصف",
+  "reviews": "التقييمات",
+  "similarTo": "منتجات مشابهة لـ {product}",
+  "@similarTo": {
+    "placeholders": {
+      "product": {}
+    }
+  },
+
+  "size": "المقاس",
+  "color": "اللون",
+  "quantity": "الكمية",
+
+  "inStock": "متوفر",
+  "outOfStock": "غير متوفر",
+
+  "myCart": "سلة التسوق",
+  "remove": "حذف",
+  "total": "الإجمالي",
+  "subtotal": "المجموع الفرعي",
+  "shipping": "الشحن",
+  "applyCoupon": "إضافة كوبون",
+  "checkout": "إتمام الشراء",
+
+  "deliveryAddress": "عنوان التوصيل",
+  "edit": "تعديل",
+  "addNewAddress": "إضافة عنوان جديد",
+
+  "orderDetails": "تفاصيل الطلب",
+  "orderSummary": "ملخص الطلب",
+  "placeOrder": "تأكيد الطلب",
+  "proceedToPayment": "المتابعة للدفع",
+  "continueText": "متابعة",
+
+  "payment": "الدفع",
+  "paymentMethod": "طريقة الدفع",
+  "cardNumber": "رقم البطاقة",
+  "expiryDate": "تاريخ الانتهاء",
+  "cvv": "رمز التحقق",
+  "paypal": "باي بال",
+  "visa": "فيزا",
+
+  "paymentSuccessful": "تم الدفع بنجاح.",
+  "paymentFailed": "فشل الدفع. حاول مرة أخرى.",
+
+  "shippingAddress": "عنوان الشحن",
+  "deliveryTime": "وقت التوصيل",
+  "estimatedDelivery": "موعد التوصيل المتوقع",
+
+
+  "profile": "الملف الشخصي",
+  "personalDetails": "البيانات الشخصية",
+  "businessAddressDetails": "تفاصيل عنوان العمل",
+  "bankAccountDetails": "تفاصيل الحساب البنكي",
+
+  "save": "حفظ",
+  "cancel": "إلغاء",
+
+  "address": "العنوان",
+  "city": "المدينة",
+  "country": "الدولة",
+  "phoneNumber": "رقم الهاتف",
+
+  "fieldRequired": "هذا الحقل مطلوب.",
+  "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح.",
+  "passwordTooShort": "يجب أن تكون كلمة المرور 6 أحرف على الأقل.",
+  "passwordNotMatch": "كلمتا المرور غير متطابقتين.",
+
+  "yes": "نعم",
+  "no": "لا",
+  "ok": "حسنًا",
+  "error": "خطأ",
+  "success": "نجاح",
+  "loading": "جاري التحميل..."
+}

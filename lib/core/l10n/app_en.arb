@@ -1,0 +1,126 @@
+{
+  "@@locale": "en",
+
+  "appName": "Stylish",
+
+
+  "chooseProductsTitle": "Choose Products",
+  "chooseProductsDesc": "Browse and select your favorite products easily.",
+
+  "makePaymentTitle": "Make Payment",
+  "makePaymentDesc": "Fast and secure payment experience.",
+
+  "getYourOrderTitle": "Get Your Order",
+  "getYourOrderDesc": "Quick delivery at your doorstep.",
+
+  "next": "Next",
+  "previous": "Previous",
+  "getStarted": "Get Started",
+  "skip": "Skip",
+
+  "welcomeBack": "Welcome Back!",
+  "login": "Login",
+  "createAccount": "Create Account",
+  "forgotPassword": "Forgot Password?",
+  "forgotPasswordTitle": "Forgot Password",
+  "submit": "Submit",
+
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "username": "Username",
+
+  "dontHaveAccount": "Don’t have an account?",
+  "alreadyHaveAccount": "Already have an account?",
+
+  "signUp": "Sign Up",
+  "signIn": "Sign In",
+  "logout": "Logout",
+
+  "allFeatured": "All Featured",
+  "specialOffers": "Special Offers",
+  "trendingProducts": "Trending Products",
+  "newArrivals": "New Arrivals",
+  "seeAll": "See All",
+  "viewAll": "View All",
+
+  "searchHint": "Search products",
+  "categories": "Categories",
+
+  "addToCart": "Add to Cart",
+  "buyNow": "Buy Now",
+  "description": "Description",
+  "reviews": "Reviews",
+  "similarTo": "Similar to {product}",
+  "@similarTo": {
+    "placeholders": {
+      "product": {}
+    }
+  },
+
+  "size": "Size",
+  "color": "Color",
+  "quantity": "Quantity",
+
+  "inStock": "In Stock",
+  "outOfStock": "Out of Stock",
+
+ 
+  "myCart": "My Cart",
+  "remove": "Remove",
+  "total": "Total",
+  "subtotal": "Subtotal",
+  "shipping": "Shipping",
+  "applyCoupon": "Apply Coupon",
+  "checkout": "Checkout",
+
+  "deliveryAddress": "Delivery Address",
+  "edit": "Edit",
+  "addNewAddress": "Add New Address",
+
+  "orderDetails": "Order Details",
+  "orderSummary": "Order Summary",
+  "placeOrder": "Place Order",
+  "proceedToPayment": "Proceed to Payment",
+  "continueText": "continue",
+
+  "payment": "Payment",
+  "paymentMethod": "Payment Method",
+  "cardNumber": "Card Number",
+  "expiryDate": "Expiry Date",
+  "cvv": "CVV",
+  "paypal": "PayPal",
+  "visa": "Visa",
+
+  "paymentSuccessful": "Payment done successfully.",
+  "paymentFailed": "Payment failed. Please try again.",
+
+  "shippingAddress": "Shipping Address",
+  "deliveryTime": "Delivery Time",
+  "estimatedDelivery": "Estimated Delivery",
+
+  "profile": "Profile",
+  "personalDetails": "Personal Details",
+  "businessAddressDetails": "Business Address Details",
+  "bankAccountDetails": "Bank Account Details",
+
+  "save": "Save",
+  "cancel": "Cancel",
+
+  "address": "Address",
+  "city": "City",
+  "country": "Country",
+  "phoneNumber": "Phone Number",
+
+  "fieldRequired": "This field is required.",
+  "invalidEmail": "Please enter a valid email.",
+  "passwordTooShort": "Password must be at least 6 characters.",
+  "passwordNotMatch": "Passwords do not match.",
+
+  "yes": "Yes",
+  "no": "No",
+  "ok": "OK",
+  "error": "Error",
+  "success": "Success",
+  "loading": "Loading..."
+}
