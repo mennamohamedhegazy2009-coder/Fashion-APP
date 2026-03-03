@@ -42,8 +42,6 @@ abstract class AppRouter {
       case AppRoutes.checkout:
         return _materialRoute(const CheckoutScreen());
 
-      // case AppRoutes.payment:
-      //   return _materialRoute(const PaymentScreen());
 
       case AppRoutes.profile:
         return _materialRoute(const EditProfileScreen());
